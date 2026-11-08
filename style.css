@@ -1,0 +1,23 @@
+.vc-soundboard-combos-cell {
+    display: contents;
+}
+
+.vc-soundboard-combos-edit-bar {
+    padding: 8px 12px;
+}
+
+.vc-soundboard-combos-sounds {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.vc-soundboard-combos-emoji {
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    line-height: 20px;
+}
